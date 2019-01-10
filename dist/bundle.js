@@ -10011,7 +10011,7 @@
             let among_var;
             let v_1;
             let v_2;
-            for (v_1 = this.current.length(); v_1 > 0; v_1--) {
+            for (v_1 = this.current.length; v_1 > 0; v_1--) {
               lab0: do {
                 v_2 = this.cursor;
                 lab1: do {
@@ -10273,7 +10273,7 @@
           }
           r_Checks1() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.bra = this.cursor;
             among_var = this.find_among(ArabicStemmer.a_3);
             if (among_var === 0) {
@@ -10304,7 +10304,7 @@
           }
           r_Prefix_Step1() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.bra = this.cursor;
             among_var = this.find_among(ArabicStemmer.a_4);
             if (among_var === 0) {
@@ -10351,7 +10351,7 @@
             let among_var;
             let v_1;
             let v_2;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             {
               v_1 = this.cursor;
               lab0: do {
@@ -10398,7 +10398,7 @@
           }
           r_Prefix_Step3a_Noun() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.bra = this.cursor;
             among_var = this.find_among(ArabicStemmer.a_6);
             if (among_var === 0) {
@@ -10426,7 +10426,7 @@
           r_Prefix_Step3b_Noun() {
             let among_var;
             let v_1;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             {
               v_1 = this.cursor;
               lab0: do {
@@ -10469,7 +10469,7 @@
           }
           r_Prefix_Step3_Verb() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.bra = this.cursor;
             among_var = this.find_among(ArabicStemmer.a_8);
             if (among_var === 0) {
@@ -10508,7 +10508,7 @@
           }
           r_Prefix_Step4_Verb() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.bra = this.cursor;
             among_var = this.find_among(ArabicStemmer.a_9);
             if (among_var === 0) {
@@ -10531,7 +10531,7 @@
           }
           r_Suffix_Noun_Step1a() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_10);
             if (among_var === 0) {
@@ -10564,7 +10564,7 @@
           }
           r_Suffix_Noun_Step1b() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_11);
             if (among_var === 0) {
@@ -10585,7 +10585,7 @@
           }
           r_Suffix_Noun_Step2a() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_12);
             if (among_var === 0) {
@@ -10606,7 +10606,7 @@
           }
           r_Suffix_Noun_Step2b() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_13);
             if (among_var === 0) {
@@ -10627,7 +10627,7 @@
           }
           r_Suffix_Noun_Step2c1() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_14);
             if (among_var === 0) {
@@ -10648,7 +10648,7 @@
           }
           r_Suffix_Noun_Step2c2() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_15);
             if (among_var === 0) {
@@ -10669,7 +10669,7 @@
           }
           r_Suffix_Noun_Step3() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_16);
             if (among_var === 0) {
@@ -10690,7 +10690,7 @@
           }
           r_Suffix_Verb_Step1() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_17);
             if (among_var === 0) {
@@ -10723,7 +10723,7 @@
           }
           r_Suffix_Verb_Step2a() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_18);
             if (among_var === 0) {
@@ -10768,7 +10768,7 @@
           }
           r_Suffix_Verb_Step2b() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_19);
             if (among_var === 0) {
@@ -10789,7 +10789,7 @@
           }
           r_Suffix_Verb_Step2c() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_20);
             if (among_var === 0) {
@@ -10816,7 +10816,7 @@
           }
           r_Suffix_All_alef_maqsura() {
             let among_var;
-            this.I_word_len = this.current.length();
+            this.I_word_len = this.current.length;
             this.ket = this.cursor;
             among_var = this.find_among_b(ArabicStemmer.a_21);
             if (among_var === 0) {
@@ -58990,7 +58990,7 @@
             let v_8;
             let v_9;
             let v_10;
-            this.I_p1 = this.current.length();
+            this.I_p1 = this.current.length;
             this.limit_backward = this.cursor;
             this.cursor = this.limit;
             v_1 = this.limit - this.cursor;
@@ -59040,7 +59040,7 @@
                       break;
                   }
                 } while (false);
-                this.I_p1 = this.current.length();
+                this.I_p1 = this.current.length;
                 v_5 = this.limit - this.cursor;
                 lab3: do {
                   if (!(this.I_p1 > 6)) {
@@ -59063,7 +59063,7 @@
                       break;
                   }
                 } while (false);
-                this.I_p1 = this.current.length();
+                this.I_p1 = this.current.length;
                 v_6 = this.limit - this.cursor;
                 lab4: do {
                   if (!(this.I_p1 > 6)) {
@@ -59086,7 +59086,7 @@
                       break;
                   }
                 } while (false);
-                this.I_p1 = this.current.length();
+                this.I_p1 = this.current.length;
                 v_7 = this.limit - this.cursor;
                 lab5: do {
                   if (!(this.I_p1 > 5)) {
@@ -59109,7 +59109,7 @@
                       break;
                   }
                 } while (false);
-                this.I_p1 = this.current.length();
+                this.I_p1 = this.current.length;
                 v_8 = this.limit - this.cursor;
                 lab6: do {
                   if (!(this.I_p1 > 6)) {
@@ -59134,7 +59134,7 @@
                   this.cursor = this.limit - v_9;
                   this.slice_del();
                 } while (false);
-                this.I_p1 = this.current.length();
+                this.I_p1 = this.current.length;
                 v_10 = this.limit - this.cursor;
                 lab7: do {
                   if (!(this.I_p1 > 5)) {
@@ -60640,7 +60640,7 @@
             this.B_found_a_match = false;
           }
           r_has_min_length() {
-            this.I_length = this.current.length();
+            this.I_length = this.current.length;
             if (!(this.I_length > 4)) {
               return false;
             }
@@ -60795,7 +60795,7 @@
             let v_12;
             let v_13;
             this.B_found_wrong_ending = false;
-            this.I_length = this.current.length();
+            this.I_length = this.current.length;
             if (!(this.I_length > 3)) {
               return false;
             }
